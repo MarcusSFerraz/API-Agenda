@@ -16,9 +16,7 @@ create table agenda (
 );
 
 insert into paciente (nome) values ('Paciente');
-
-select * from paciente
-
 insert into agenda (descricao, paciente_id) values ('descricao basica', 0);
 
+select * from paciente
 select * from agenda
