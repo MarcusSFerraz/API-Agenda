@@ -1,9 +1,8 @@
-package mk.com.agenda.domain.entity;
+package com.agenda.domain.bean;
 
 import lombok.Getter;
 import lombok.Setter;
-
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Getter
 @Setter
@@ -13,7 +12,7 @@ public class Paciente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
     private String nome;
     private String sobrenome;
     private String email;
